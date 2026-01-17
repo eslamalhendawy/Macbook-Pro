@@ -17,7 +17,7 @@ const ProductViewer = () => {
         <section id='product-viewer'>
             <h2>Take a closer look</h2>
             <div className='controls'>
-                <p className='info'>MackbookPro {scale === 0.06 ? "16" : "14"}" in {color === "#adb5bd" ? "Silver" : "Space Black"}</p>
+                <p className='info'>Mackbook Pro | Available in 14" & 16" in Space Gray & Silver</p>
                 <div className='flex-center gap-5 mt-5'>
                     <div className='color-control'>
                         <div onClick={() => setColor('#adb5bd')} className={clsx('bg-neutral-300', color === "#adb5bd" && "active")} />
