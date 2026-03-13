@@ -1,5 +1,4 @@
-
-import {navLinks} from "../constants"
+import { navLinks } from "../constants";
 
 const Navbar = () => {
   return (
@@ -9,11 +8,11 @@ const Navbar = () => {
         <ul>
           {navLinks.map((link, i) => (
             <li key={i}>
-              <a href={link.label}>{link.label}</a>
+              <a href={`#${link.link}`}>{link.label}</a>
             </li>
           ))}
         </ul>
-        <div className='flex-center gap-3'>
+        <div className="flex-center gap-3">
           <button>
             <img src="/search.svg" alt="search" />
           </button>
@@ -23,7 +22,7 @@ const Navbar = () => {
         </div>
       </nav>
     </header>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
