@@ -1,10 +1,10 @@
 const navLinks = [
-    { label: "Store" },
-    { label: "Mac" },
-    { label: "iPhone" },
-    { label: "Watch" },
-    { label: "Vision" },
-    { label: "AirPods" },
+    { label: "Main", link: "hero" },
+    { label: "Mac", link: "product-viewer" },
+    { label: "Showcase", link: "showcase" },
+    { label: "Performance", link: "performance" },
+    { label: "Features", link: "features" },
+    { label: "Highlights", link: "highlights" },
 ];
 
 const noChangeParts = [
